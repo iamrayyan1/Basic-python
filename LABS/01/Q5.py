@@ -16,3 +16,25 @@ for number in numbers:
         numbers.remove(number)
 
 print(numbers)
+
+
+# or
+
+numbers = []
+size = int(input("Enter the number of elements in the list: "))
+target = int(input("Enter the target number: "))
+
+print("Enter the elements: ")
+
+for i in range(size):
+    num = int(input())
+    numbers.append(num)
+
+modified = []
+
+for num in numbers:
+    if num >= target:
+        modified.append(num)
+
+print("Modified list:", modified)
+
