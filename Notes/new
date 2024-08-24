@@ -1,0 +1,42 @@
+name = input("whats your name? ")  # storing value inside name variable.
+# input is used to take input from user after the prompt.
+print("Hello,")
+print(name)  # written to the next line. print function moves to next line in python unlike cpp.
+print("Hello, " + name)  # this will print on the same line
+print("Hello,", name)     # another way  # we can override the behavior of sep and end
+print("Hello,\"David\" ")
+print(f"Hello, {name}")
+
+a = 8
+if a == 8:
+    print("Hello World")
+
+"""
+STR DATA TYPE:
+"""
+
+lastName = input("whats your last name? ")
+# Remove whitespace from str  (There are many functions in string library that can be used according to our need)
+lastName = name.strip()
+lastName = name.capitalize()  # capitalize first letter of first word
+lastName = lastName.title()   # capitalize first letter of all words
+# instead we can combine all
+lastName = lastName.strip().capitalize()
+print(f"Hello {lastName}, {name}")
+
+
+# simpler and shorter:
+fullName = input("whats your full name? ").strip().capitalize()   # this way
+print(f"Hello {fullName}")
+
+
+
+"""
+INTEGER DATA TYPE:
+"""
+
+
+
+
+
+
