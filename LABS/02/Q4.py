@@ -6,10 +6,11 @@
 
 
 def employee(name, salary = 10000):
-    taxrate = 0.02
-    salaryaftertax = salary * (1 - taxrate)
-    print(f"Name of the Employtee is : {name}")
-    print(f"Salary of the employee after taxation is: pkr{salaryaftertax}")
+    tax = 0.02
+    after_tax = salary*(1 - tax)
+    print(f"Name: {name}")
+    print(f"Salary after taxation: ${after_tax}")
 
-employee("rayyan", 79000)
-employee("haris")
+
+employee("rayyan", 18000)
+employee("rayyan")
