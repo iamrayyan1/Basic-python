@@ -1,0 +1,5 @@
+Name: rayyan
+CNIC: 42201-7395227-1
+Age: 20
+Salary: 100000000000000000
+Contact Number: 03282315388

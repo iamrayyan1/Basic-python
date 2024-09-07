@@ -1,0 +1,4 @@
+hello: hello
+bye: ainda
+123: na
+345: hou
