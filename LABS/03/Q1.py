@@ -10,7 +10,7 @@ try:
 except FileNotFoundError:
     print(f"The file '{file_name}' was not found.")
 except IOError:
-    print("An error occurred while reading the file.")
+    print("Error occurred while reading the file.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
 
