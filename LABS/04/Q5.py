@@ -5,12 +5,12 @@ def main():
   restaurant.add_item_to_menu("Pizza", 12.99)
   restaurant.add_item_to_menu("Salad", 8.99)
   
-  restaurant.book_table(1, "John Doe")
-  restaurant.book_table(2, "Jane Doe")
+  restaurant.book_table(1, "Rayyan")
+  restaurant.book_table(2, "Merchant")
   
   restaurant.customer_order(1, "Burger")
   restaurant.customer_order(1, "Pizza")
-  restaurant.customer_order(2, "Salad")
+  restaurant.customer_order(2, "icecream")
   
   restaurant.print_menu()
   restaurant.print_reservations()
