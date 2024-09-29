@@ -24,8 +24,8 @@ class Result(Marks):
         super().__init__(id,name,ds,algo,cal)
 
     def calc(self):
-        print(f"the total of all the marks is: {self.ds+self.algo+self.cal}\nthe average is: {(self.ds+self.algo+self.cal)/3}")
+        print(f"Marks: {self.ds+self.algo+self.cal}\nAverage: {(self.ds+self.algo+self.cal)/3}")
 
-final = Result(230068,"Muhammad",100,90,80)
+final = Result(230073,"rayyyyy",98,99,100)
 final.print()
 final.calc()        
