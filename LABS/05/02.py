@@ -1,3 +1,6 @@
+# 2. Create abstract base class "shape" that has abstract method "area". Inherit rectangle, triangle
+# and square class from shape class and provide implementation of "area" method for each
+# derived class. Finally print area of rectangle, triangle and square. [2 marks]
 
 
 from abc import ABC,abstractmethod
@@ -31,10 +34,10 @@ class square(shape):
     def area(self):
         return self.height * self.height
 
-rectang = Rectangle(4,5)
-triang = triangle(3,4)
-sq = square(4)
-print(f"area of rectangle {rectang.area()}")
-print(f"area of triangle {triang.area()}")
-print(f"area of square {sq.area()}")
+r = Rectangle(4,5)
+t = triangle(3,4)
+s = square(4)
+print(f"area of rectangle {r.area()}")
+print(f"area of triangle {t.area()}")
+print(f"area of square {s.area()}")
 
