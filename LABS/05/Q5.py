@@ -100,7 +100,7 @@ def display_reservation_details(reservation):
 car = Car("Toyota", "Corrola", 50)
 suv = SUV("Ford", "Raptor", 75)
 truck = Truck("Chevrolet", "Camaro", 90)
-customer = Customer("Muhammad", "555-1234")
+customer = Customer("rayyy", "555-1234")
 start_date = datetime.now()
 end_date = start_date + timedelta(days=3)
 reservation = customer.rent_vehicle(car, start_date, end_date)
