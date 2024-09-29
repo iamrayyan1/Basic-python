@@ -11,7 +11,9 @@ df = pd.DataFrame(data)
 print("Original DataFrame:")
 print(df)
 
-df.index = range(100, 100 + len(df))
+new_index = ["A", "B", "C", "D"]
 
-print("\nDataFrame with custom index starting at 100:")
+df.index = new_index
+
+print("\nModified DataFrame:")
 print(df)
